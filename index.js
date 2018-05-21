@@ -24,8 +24,9 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   
-  var cartView = ""
-  var 
+  var cartMessage = ""
+  var cartItemCount = getCart().length
+  
   return ''
 }
 
