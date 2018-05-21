@@ -26,7 +26,10 @@ function viewCart() {
   
   var cartMessage = ""
   var cartItemCount = getCart().length
-  
+  if(itemCount === 0) {
+    cartMessage = "Your shopping cart is empty."
+  } else 
+    cartMessage = "In your cart, you have ";
   return ''
 }
 
