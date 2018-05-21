@@ -14,8 +14,8 @@ function addToCart(item) {
 
   var item = 
   
-  return 
-}
+  return "(itemName) has been added to your cart."
+  
 
 function viewCart() {
   // write your code here
