@@ -61,7 +61,8 @@ function total() {
 function removeFromCart(item) {
   // write your code here
 
-  var cartItemCount = getCart.
+  var cartItemCount = getCart().length
+  
   
 }
 
