@@ -58,8 +58,6 @@ function total() {
   }
   return total
 }
-  
-}
 
 function removeFromCart(item) {
   // write your code here
