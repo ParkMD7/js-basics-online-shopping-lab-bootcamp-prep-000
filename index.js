@@ -24,7 +24,9 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   
-  return 'In your cart, you have '
+  var cartView = ""
+  var 
+  return ''
 }
 
 function total() {
