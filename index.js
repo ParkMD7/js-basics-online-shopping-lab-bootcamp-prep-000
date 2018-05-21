@@ -31,9 +31,20 @@ function viewCart() {
   } 
   else {
     cartMessage = "In your cart, you have "
-    
-    
-  return ''
+    for(var i = 0; i < cartItemCount; i++) {
+      if (i === 0) {
+        message = message + cart[i].itemName + " at $" + cart[i].itemPrice;
+      } else if(i === 1 && cartItemCount === 2) {
+        message = message + ", and " + cart[i].itemName + " at $" + cart[i].itemPrice;
+        } else if(i < cartItemCount-1 && cartItemCount > 2) {
+          message = message + ", " + cart[i].itemName + " at $" + cart[i].itemPrice;
+          } else if(i === cartItemCount-1) {
+              message = message + ", and " + cart[i].itemName + " at $" + cart[i].itemPrice;
+            }
+    }
+    message += ".";
+  }
+  return message;
 }
 
 function total() {
