@@ -20,10 +20,11 @@ function addToCart(item) {
  cart.push(cartItem)
  return `${item} has been added to your cart.`
 }
-  
 
 function viewCart() {
   // write your code here
+  
+  return 'In your cart, you have '
 }
 
 function total() {
